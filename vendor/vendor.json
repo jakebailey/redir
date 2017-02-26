@@ -9,5 +9,9 @@
 			"revisionTime": "2016-12-28T15:00:38Z"
 		}
 	],
-	"rootPath": "github.com/jakebailey/redir"
+	"rootPath": "github.com/jakebailey/redir",
+	"heroku": {
+		"install" : [ "./..." ],
+		"goVersion": "go1.8"
+	}
 }
