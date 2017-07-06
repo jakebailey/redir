@@ -10,12 +10,10 @@ import (
 )
 
 var args = struct {
-	Port   uint   `arg:"env"`
-	URL    string `arg:"required,env:REDIR_URL,help:url to redirect all requests to"`
-	Scheme string `arg:"env:REDIR_SCHEME,help:scheme to use if not specified in url"`
+	Port uint   `arg:"env"`
+	URL  string `arg:"required,env:REDIR_URL,help:url to redirect all requests to"`
 }{
-	Port:   5000,
-	Scheme: "http",
+	Port: 5000,
 }
 
 func main() {
@@ -27,7 +25,7 @@ func main() {
 	}
 
 	if u.Scheme == "" {
-		u.Scheme = args.URL
+		p.Fail("URL must have scheme")
 	}
 
 	log.Println("redirecting all traffic to", u)
