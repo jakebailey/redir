@@ -1,17 +1,25 @@
 {
 	"comment": "",
+	"heroku": {
+		"goVersion": "go1.8",
+		"install": [
+			"./..."
+		]
+	},
 	"ignore": "test",
 	"package": [
 		{
-			"checksumSHA1": "kTQ58DAXtXAHAjGYSj0yNnfW9k0=",
-			"path": "github.com/namsral/flag",
-			"revision": "7fa59bdb55485001d702d9b6e15367cdf26bfde8",
-			"revisionTime": "2016-12-28T15:00:38Z"
+			"checksumSHA1": "kjygOPbr5jsND2nU4NJnyyDRVF8=",
+			"path": "github.com/alexflint/go-arg",
+			"revision": "cef6506c97e5731da728c374ff3523e481026423",
+			"revisionTime": "2017-03-30T21:10:29Z"
+		},
+		{
+			"checksumSHA1": "M5vBatiAKUjyLYrb9nS+6QbpEjE=",
+			"path": "github.com/alexflint/go-scalar",
+			"revision": "e80c3b7ed292b052c7083b6fd7154a8422c33f65",
+			"revisionTime": "2017-02-16T02:04:25Z"
 		}
 	],
-	"rootPath": "github.com/jakebailey/redir",
-	"heroku": {
-		"install" : [ "./..." ],
-		"goVersion": "go1.8"
-	}
+	"rootPath": "github.com/jakebailey/redir"
 }
