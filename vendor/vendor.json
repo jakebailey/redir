@@ -1,18 +1,12 @@
 {
 	"comment": "",
-	"heroku": {
-		"goVersion": "go1.8",
-		"install": [
-			"./..."
-		]
-	},
 	"ignore": "test",
 	"package": [
 		{
-			"checksumSHA1": "kjygOPbr5jsND2nU4NJnyyDRVF8=",
+			"checksumSHA1": "gzgvEqDuC40n5CGizmCXAoQ0SH8=",
 			"path": "github.com/alexflint/go-arg",
-			"revision": "cef6506c97e5731da728c374ff3523e481026423",
-			"revisionTime": "2017-03-30T21:10:29Z"
+			"revision": "59fccacb2679dde66e0b20ed65bd26178fcbf54e",
+			"revisionTime": "2017-10-03T00:07:17Z"
 		},
 		{
 			"checksumSHA1": "M5vBatiAKUjyLYrb9nS+6QbpEjE=",
