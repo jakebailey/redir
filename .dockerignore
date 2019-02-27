@@ -2,4 +2,5 @@
 
 !LICENSE
 !*.go
-!vendor/
+!go.mod
+!go.sum
